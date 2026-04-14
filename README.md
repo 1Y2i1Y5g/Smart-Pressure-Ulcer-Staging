@@ -73,7 +73,7 @@ Final 5-Class Prediction
 
 为了支持并行开发，项目分为两个主要子模块。
 
-### Member A: Detection Lead
+### Zhenkai: Detection Lead
 
 负责 **YOLO 检测模块**：
 
@@ -84,7 +84,7 @@ Final 5-Class Prediction
 - 输出 metadata 文件
 - 检测评估（mAP、Precision、Recall）
 
-### Member B: Segmentation + Classification Lead
+### Yiyang: Segmentation + Classification Lead
 
 负责 **SAM + Swin 模块**：
 
@@ -110,7 +110,7 @@ Final 5-Class Prediction
 
 ## 6. Work Split Details
 
-| Task | Member A | Member B | Notes |
+| Task | Zhenkai | Yiyang | Notes |
 |---|---|---|---|
 | Dataset collection / cleaning | ✅ | ✅ | 一起确认标签质量 |
 | Bounding box annotation | ✅ |  | YOLO 训练所需 |
